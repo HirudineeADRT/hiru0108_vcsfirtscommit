@@ -22,7 +22,7 @@
         "children": [],
         "isRemovable": true,
         "filePath": "hiru0108_vcsfirtscommit/lambda.js",
-        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "code": "exports.handler = function(event, context, callback) {\n    //thetest\n    callback(null, {\"message\": \"Successfully executed\"});\n}",
         "config": {
           "runtime": "nodejs8.10",
           "handler": "handler",
@@ -65,14 +65,19 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1564659385005
+    "lastSave": 1564659577172
   },
   "VCS_STATE": {
     "provider": "GitHub",
     "repo": {
       "name": "hiru0108_vcsfirtscommit",
       "url": "https://github.com/HirudineeADRT/hiru0108_vcsfirtscommit",
-      "branches": []
+      "branches": [
+        {
+          "name": "master",
+          "hash": "7147da0a2ee6f2595f793684991c85278a820dd4"
+        }
+      ]
     }
   }
 }
